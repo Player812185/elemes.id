@@ -1,0 +1,49 @@
+/*? Rubik Regular */
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(./../../public/fonts/Rubik-Regular.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*? Rubik Medium */
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(./../../public/fonts/Rubik-Medium.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/*? OpenSans Regular */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(./../../public/fonts/OpenSans-Regular.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*? OpenSans SemiBold */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(./../../public/fonts/OpenSans-SemiBold.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+/*? OpenSans Bold */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(./../../public/fonts/OpenSans-Bold.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
