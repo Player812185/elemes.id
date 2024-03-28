@@ -1,119 +1,53 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-family: 'OpenSans', sans-serif;
-  line-height: 120%;
-}
+/*? Text */
 
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
+.text_paragraph1 {
+  font-weight: 500;
   font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
-input,
-button,
-textarea {
-  font-family: inherit;
+/*? Button and modifiers */
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #8bac3e;
+  border-radius: 100px;
+  line-height: 22px;
+  color: #fff;
 }
 
-input::-ms-clear {
-  display: none;
+.header__navigation-item_hot::after {
+  position: absolute;
+  content: "HOT";
+  top: 18px;
+  right: 580px;
+  font-weight: 700;
+  font-size: 8px;
+  color: #fff;
+  background-color: #e7462d;
+  border-radius: 8px;
+  padding: 3px 9px 2px 9px;
+  line-height: 14px;
 }
 
-button {
-  cursor: pointer;
+/*? Header */
+
+.header__container {
+  display: flex;
+  align-items: center;
+  padding-block: 19px;
+  justify-content: space-between;
+  position: relative;
 }
 
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+.header__navigation {
+  display: flex;
+  gap: 32px;
+  align-items: center;
 }
 
-a,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
-/*--------------------*/
-
-.bigred {
-  font-size: 20px;
-  color: red;
-}
-
-.container {
-  max-width: 1269px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-img {
-  max-width: 100%;
-}
-
-details summary {
-  list-style: none;
-}
-
-details summary:hover {
-  cursor: pointer;
-}
-
-a {
-  color: inherit
+.header__login {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
