@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="./src/css/null.css">
   <link rel="stylesheet" href="./src/css/fonts.css">
   <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="preload" href="./public/img/hero_background.svg" as="image">
+  <link rel="preload" href="./public/fonts/Rubik-Bold.woff2" as="font">
+  <link rel="preload" href="./public/fonts/Rubik-Medium.woff2" as="font">
+  <link rel="preload" href="./public/fonts/Rubik-Regular.woff2" as="font">
 </head>
 
 <body>
@@ -19,15 +23,19 @@
               class="header__logo-image"></a>
         </div>
         <ul class="header__navigation">
-          <a href="#" class="header__navigation-item paragraph paragraph1">Home</a>
-          <a href="#" class="header__navigation-item paragraph paragraph1">About</a>
-          <a href="#" class="header__navigation-item header__navigation-item_hot paragraph paragraph1">Promotions</a>
-          <a href="#" class="header__navigation-item paragraph paragraph1">Blogs</a>
-          <a href="#" class="header__navigation-item paragraph paragraph1">Contact Us</a>
+          <a href="#" class="header__navigation-item paragraph paragraph_size_lg ">Home</a>
+          <a href="#" class="header__navigation-item paragraph paragraph_size_lg ">About</a>
+          <a href="#"
+            class="header__navigation-item header__navigation-item_hot paragraph paragraph_size_lg ">Promotions</a>
+          <a href="#" class="header__navigation-item paragraph paragraph_size_lg ">Blogs</a>
+          <a href="#" class="header__navigation-item paragraph paragraph_size_lg ">Contact
+            Us</a>
         </ul>
         <div class="header__login">
-          <a href="#" class="header__login-button button button_color_transparent paragraph paragraph1">Masuk</a>
-          <a href="#" class="header__login-button button button_color_green paragraph paragraph1">Daftar Sekarang</a>
+          <a href="#"
+            class="header__login-button button button_color_transparent paragraph paragraph_size_lg ">Masuk</a>
+          <a href="#" class="header__login-button button button_color_green paragraph paragraph_size_lg ">Daftar
+            Sekarang</a>
         </div>
       </div>
     </header>
@@ -35,17 +43,108 @@
       <div class="hero">
         <div class="hero__container container">
           <div class="hero__column">
-            <h1 class="hero__title title1">Good Food Us Good Mood</h1>
-            <p class="hero__paragraph paragraph paragraph2">I would think that conserving our natural resources should
+            <h1 class="hero__title title_color_green title_size_lg">Good Food Us Good Mood</h1>
+            <p class="hero__paragraph paragraph paragraph_size_md ">I would think that
+              conserving our natural
+              resources should
               be
               a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.</p>
             <div class="hero__buttons">
-              <a href="#" class="hero__button button button_color_green">Daftar Sekarang</a>
+              <a href="#" class="hero__button button button_color_green hero__button_shadow">Daftar Sekarang</a>
               <a href="#" class="hero__button button button_color_white">About Us</a>
             </div>
           </div>
           <div class="hero__column">
             <img src="./public/img/food.svg" alt="еда" class="hero__image">
+          </div>
+        </div>
+      </div>
+      <div class="category">
+        <div class="category__container container">
+          <h2 class="category__title title_size_md title_color_gray">Browser Our Category </h2><span
+            class="category__title title_size_md title_color_green">Receipt</span>
+          <div class="category__items">
+            <a href="#" class="category__link">
+              <div class="category__item category__item_color_green">
+                <div class="category__image-block">
+                  <img src="./public/img/icons/cupcake.svg" alt="кекс" class="category__image">
+                </div>
+                <div class="category__body">
+                  <p class="category__name paragraph paragraph_size_sm">Cupcake</p>
+                  <p class="category__count paragraph paragraph_size_xs">22 Items</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="category__link">
+              <div class="category__item category__item_color_light-blue">
+                <div class="category__image-block">
+                  <img src="./public/img/icons/pizza.svg" alt="пицца" class="category__image">
+                </div>
+                <div class="category__body">
+                  <p class="category__name paragraph paragraph_size_sm ">Pizza</p>
+                  <p class="category__count paragraph paragraph_size_xs">25 Items</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="category__link">
+              <div class="category__item category__item_color_blue">
+                <div class="category__image-block">
+                  <img src="./public/img/icons/kebab.svg" alt="кебаб" class="category__image">
+                </div>
+                <div class="category__body">
+                  <p class="category__name paragraph paragraph_size_sm">Kebab</p>
+                  <p class="category__count paragraph paragraph_size_xs ">12 Items</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="category__link">
+              <div class="category__item category__item_color_pink">
+                <div class="category__image-block">
+                  <img src="./public/img/icons/salmon.svg" alt="лосось" class="category__image">
+                </div>
+                <div class="category__body">
+                  <p class="category__name paragraph paragraph_size_sm">Salmon</p>
+                  <p class="category__count paragraph paragraph_size_xs ">22 Items</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="category__link">
+              <div class="category__item category__item_color_yellow">
+                <div class="category__image-block">
+                  <img src="./public/img/icons/doughnut.svg" alt="пончик" class="category__image">
+                </div>
+                <div class="category__body">
+                  <p class="category__name paragraph paragraph_size_sm">Doughnut</p>
+                  <p class="category__count paragraph paragraph_size_xs">11 Items</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="category__buttons">
+            <div class="category__button-block button button_color_green category__button-block_prev">
+              <div class="category__image-block">
+                <img src="./public/img/icons/arrow_left.svg" alt="стрелочка влево" class="category__image">
+              </div>
+              <a href="#" class="category__button paragraph paragraph_size_sm">PREV</a>
+            </div>
+            <div class="category__button-block button button_color_green category__button-block_next">
+              <a href="#" class="category__button paragraph paragraph_size_sm">NEXT</a>
+              <div class="category__image-block">
+                <img src="./public/img/icons/arrow_right.svg" alt="стрелочка вправо" class="category__image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <div class="trending__container container">
+          <h2 class="trending title_size_md title_color_gray">Browser Our Trending </h2><span
+            class="trending__title title_size_md title_color_green">Receipt</span>
+          <div class="trending__items">
+            <div class="trending__item">
+              <img src="./public/img/paperoni.svg" alt="пеперони" class="trending__image">
+              <h2 class="trending__name title_size_xxs">Pizza Paperoni</h2>
+            </div>
           </div>
         </div>
       </div>
